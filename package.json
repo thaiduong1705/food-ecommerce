@@ -1,0 +1,32 @@
+{
+	"name": "food-ecommerce",
+	"version": "1.0.0",
+	"main": "server.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node dist/server.js",
+		"dev": "nodemon src/server.ts",
+		"build": "npx tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@types/compression": "^1.7.5",
+		"@types/morgan": "^1.9.9",
+		"morgan": "^1.10.0",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.2"
+	},
+	"dependencies": {
+		"@types/express": "^5.0.0",
+		"compression": "^1.8.0",
+		"express": "^4.21.2",
+		"helmet": "^8.0.0"
+	}
+}
